@@ -4,6 +4,20 @@ Find unusually fast subtitle cues and return straight to their location in the e
 
 Go straight to the line that is hard to read at playback speed. The timestamp and characters per second tell the editor where to look and how much extra time a rewrite might buy.
 
+## Screen transitions
+
+Move from the caption file to its fastest passage, then check the retimed file.
+
+![Caption Catch front display. Move from the caption file to its fastest passage, then check the retimed file.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Caption Catch rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Find the fastest caption
 
 1. Point the companion at a UTF-8 `.srt` file and set the reading-speed threshold. The example threshold is 20 characters per second.
@@ -42,6 +56,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
