@@ -1,0 +1,56 @@
+{
+  "id": "BB-023",
+  "source": "Actual local SRT file with two authored test cues.",
+  "scenario": "Opened the timestamp of the fast cue. Exactly one of the two cues exceeded 20 characters per second.",
+  "keys": [
+    "up",
+    "down",
+    "ok"
+  ],
+  "frames": 54,
+  "distinct_frames": 13,
+  "exit": "App io.ncoooooper.captioncatch exited: finished; heap peak 81.8 of 128 KiB",
+  "sha256": "718d04042aad1e1ce5f3824cb7e084d09aa19062535f22bbb2a51b327e458dac",
+  "pages": [
+    {
+      "caption": "FAST CAPTIONS",
+      "value": "1",
+      "lines": [
+        "Over 20 chars/sec",
+        "Of 2 timed cues"
+      ]
+    },
+    {
+      "caption": "AT 00:05",
+      "value": "47.0c/s",
+      "lines": [
+        "This long caption needs a ",
+        "47 chars / 1.00s"
+      ]
+    },
+    {
+      "caption": "AT 00:01",
+      "value": "5.0c/s",
+      "lines": [
+        "Quiet now.",
+        "10 chars / 2.00s"
+      ]
+    },
+    {
+      "caption": "LONGEST CUE",
+      "value": "47",
+      "lines": [
+        "At 5.00 s",
+        "This long caption needs a "
+      ]
+    }
+  ],
+  "initial": {
+    "caption": "FAST CAPTIONS",
+    "value": "1",
+    "lines": [
+      "Over 20 chars/sec",
+      "Of 2 timed cues"
+    ]
+  }
+}

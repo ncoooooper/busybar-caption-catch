@@ -2,7 +2,7 @@
   "name": "busybar-caption-catch",
   "private": true,
   "version": "0.1.0",
-  "description": "Caption Catch",
+  "description": "Find unusually fast subtitle cues and return straight to their location in the edit.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {
