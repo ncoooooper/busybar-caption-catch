@@ -22,7 +22,7 @@ Go straight to the line that is hard to read at playback speed. The timestamp an
 
 ## Example from the emulator
 
-In the two-cue file, exactly one cue exceeded the threshold. A 47-character cue shown for one second reads at 47 characters per second. At three seconds the same text would come in under 20. Markup tags are left out of the count. Actual local SRT file with two authored test cues.
+In the two-cue file, exactly one cue exceeded the threshold. A 47-character cue shown for one second reads at 47 characters per second. At three seconds the same text would come in under 20. Markup tags are left out of the count. The companion read a local SubRip file containing the two test cues.
 
 ## Set up the source
 
